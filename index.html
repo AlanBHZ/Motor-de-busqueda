@@ -4,20 +4,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Sistema Némesis</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
-  Hello world
-  <script src="script.js"></script>
-
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <header>
+    <div class="p-3 bg-primary text-white">
+      <nav>
+        <h3 class="text-center">Sistema Némesis</h3>
+      </nav>
+    </div>
+  </header>
+  <br>
+  <div class="container-fluid">
+    <main>
+    <div>
+      <nav>
+        <form class="d-flex" action="./resultados.php" method="post" target="myframe" aria-current="page">
+          <input type="search" class="form-control me-2" placeholder="Ejemplo: 'Nombre', 'Ley N°'" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"
+            >Buscar</button>
+        </form>
+      </nav>
+    </div>
+  </main>
+    <div class="m-4" style="height: 550px;">
+      <iframe name="myframe" style="height: 100%; width: 100%" >
+      </iframe>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 
 </html>
